@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>JApaintingWorks</display-name>
+  
+  <servlet>
+  	<servlet-name>SignUp</servlet-name>
+  	<servlet-class>com.JApaintingWorks.SignUp</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>SignUp</servlet-name>
+   	<url-pattern>/SignUp</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<servlet-class>com.JApaintingWorks.Login</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>Login</servlet-name>
+   	<url-pattern>/Login</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+  	<servlet-name>Appointment</servlet-name>
+  	<servlet-class>com.JApaintingWorks.Appointment</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>Appointment</servlet-name>
+   	<url-pattern>/Appointment</url-pattern>
+   </servlet-mapping>
+    
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<servlet-class>com.JApaintingWorks.AdminLogin</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>AdminLogin</servlet-name>
+   	<url-pattern>/AdminLogin</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+  	<servlet-name>ClientDetails</servlet-name>
+  	<servlet-class>com.JApaintingWorks.ClientDetails</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>ClientDetails</servlet-name>
+   	<url-pattern>/ClientDetails</url-pattern>
+   </servlet-mapping>
+    
+ 
+	 <servlet>
+  	<servlet-name>AppointmentDetails</servlet-name>
+  	<servlet-class>com.JApaintingWorks.AppointmentDetails</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>AppointmentDetails</servlet-name>
+   	<url-pattern>/AppointmentDetails</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+  	<servlet-name>Contact</servlet-name>
+  	<servlet-class>com.JApaintingWorks.Contact</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>Contact</servlet-name>
+   	<url-pattern>/Contact</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+  	<servlet-name>ContactDetails</servlet-name>
+  	<servlet-class>com.JApaintingWorks.ContactDetails</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>ContactDetails</servlet-name>
+   	<url-pattern>/ContactDetails</url-pattern>
+   </servlet-mapping>
+   
+   
+   
+</web-app>
